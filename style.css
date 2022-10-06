@@ -1,0 +1,357 @@
+*{margin: 0%;
+padding: 0%;}
+
+#top {
+    width: 100%;
+    height: auto;}
+   
+.d1 {
+    width: 100%;
+    height: 9vh;
+    background-color: green;
+    display: flex;
+}
+.logo {
+    width: 20%;
+    height: 9vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 22px;
+    margin-left: 15px;
+    transition: all 1s ease;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    font-size: x-large;
+}
+.nav {
+    width: 80%;
+    height: 9vh;
+       display: flex;
+    list-style: none;
+    padding-left: 30px;
+    
+}
+.nav li {
+    margin-left: 25px;
+    margin-top: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.nav li:hover {
+    font-size: larger;
+  font-weight: bold;
+}
+.d2 {
+    width: 100%;
+    height: 70vh;
+    background-color: green ;
+    display: flex;
+}
+.son {
+    width: 25%;
+    height: 80vh;
+   
+}
+.son h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.son h2:hover{ font-size: xx-large;
+    
+    
+}
+.son p { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+       margin-left: 30px;
+
+}
+.son2 {
+    width: 50%;
+    height: 70.5vh;
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-image: url(./Screenshot_2022-09-24_092655-removebg-preview.png);
+}
+.son3 {
+    width: 25%;
+    height: 80vh;
+   
+}
+.son3 p {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+    margin-top: 40%;
+}
+.son3 button {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: rgb(6, 46, 6);
+    border-style: none;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.son3 button:hover {
+    padding: 12px;
+}
+
+.d3 { width: 100%;
+    height: 90vh;
+   
+display: flex;
+}
+.one {width: 50%;
+    height: 70vh;
+    
+
+}
+.one1 { width: 70%;
+    height: 70vh;
+    
+    position: relative;
+    top: 60px;
+    left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./hfhgfg.png);
+
+}
+.two {width: 50%;
+    height: 70vh;
+    
+
+}
+.two h1 {
+    margin-left: 20%;
+    margin-top: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two li {  margin-left: 20%;
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.d4
+{
+    width: 100%;
+    height: 90vh;
+    background-color:green;
+    
+}
+.heading {
+    width: 10%;
+    height: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+        margin-left: 7%;
+    padding-top: 70px;
+    font-size: xx-large;
+    
+}
+.pics { width: 100%;
+    height: 57vh;
+       display: flex;
+    justify-content: space-evenly;
+
+}
+.pic1 {
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+.snap { width: 100%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./1.png);
+
+
+}
+.pra {width: 100%;
+    height: 35vh;
+    background-color: white;
+
+}
+.pra h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-weight: normal;
+}
+.pra h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: lighter;
+}
+.pra p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: normal;
+       margin-top: 10px;
+}
+.pra button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: normal;
+       margin-top: 10px;
+       background-color: green;
+       color: white;
+       padding: 6px;
+       width: 55%;
+       border: 1px solid green;
+       border-radius: 4px;
+       transition: all 1s ease;
+}
+.pra button:hover{padding: 8px;
+    cursor: pointer;
+    width: 57%;
+
+}
+.pic2 {
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+.snap2 { width: 100%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./2.png);
+
+    
+
+}
+.pra2 {width: 100%;
+    height: 35vh;
+    background-color: white;
+
+}
+.pra2 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-weight: normal;
+}
+.pra2 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: lighter;
+}
+.pra2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: normal;
+       margin-top: 10px;
+}
+.pra2 button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: normal;
+       margin-top: 10px;
+       background-color: green;
+       color: white;
+       padding: 6px;
+       width: 55%;
+       border: 1px solid green;
+       border-radius: 4px;
+       transition: all 1s ease;
+}
+.pra2 button:hover{padding: 8px;
+    cursor: pointer;
+    width: 57%;
+
+}
+.pic3 {
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+.snap3 { width: 100%;
+    height: 25vh;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./3.png);
+
+}
+.pra3 {width: 100%;
+    height: 35vh;
+    background-color: white;
+
+}
+.pra3 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-weight: normal;
+}
+.pra3 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: lighter;
+}
+.pra3 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: normal;
+       margin-top: 10px;
+}
+.pra3 button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 25px;
+       font-weight: normal;
+       margin-top: 10px;
+       background-color: green;
+       color: white;
+       padding: 6px;
+       width: 55%;
+       border: 1px solid green;
+       border-radius: 4px;
+       transition: all 1s ease;
+}
+.pra3 button:hover{padding: 8px;
+    cursor: pointer;
+    width: 57%;
+
+}
+.d5{
+    width: 100%;
+    height: 70vh;
+    
+}
+/* .sar
+{
+    width: 20%;
+    height: 75px;
+    margin-left: 75px;
+    position: relative;
+    top: 75px;
+   
+}
+.sar h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+}
+.sar p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    margin-top: 10px;
+    
+} */
